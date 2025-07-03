@@ -2,7 +2,6 @@
 import FluidBackground from '../components/FluidBackground';
 import { motion } from 'framer-motion';
 import ScrollProgressBar from "@/components/Scrollprogressbar";
-import { publications } from "./layout";
 import ChevronTicker from "@/components/Ticker";
 import Nav from "@/components/Nav";
 import { publications } from "@/components/Data";
