@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+const sections = ["about", "experience", "project", "publications"]; // ⬅️ Pindah ke luar
+
 export default function Nav() {
   const [burgerOn, setBurgerOn] = useState(false);
   const [activeSection, setActiveSection] = useState("");
@@ -9,8 +11,6 @@ export default function Nav() {
   const toggleBurger = () => {
     setBurgerOn((prev) => !prev);
   };
-
-  const sections = ["about", "experience", "project", "publications"];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,10 +26,10 @@ export default function Nav() {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // initial check
+    handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, []); 
 
   return (
     <header>
