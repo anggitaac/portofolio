@@ -1,4 +1,3 @@
-// components/FluidBackground.jsx
 'use client';
 import React, { useRef, useEffect } from 'react';
 
@@ -17,7 +16,6 @@ const FluidBackground = () => {
     <canvas
       ref={canvasRef}
       className="fixed top-0 left-0 w-full h-full z-0"
-      // HAPUS bg-white kalau pakai BACK_COLOR
       style={{ display: 'block' }} 
     />
   );
