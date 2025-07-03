@@ -2,10 +2,10 @@
 import FluidBackground from '../components/FluidBackground';
 import { motion } from 'framer-motion';
 import ScrollProgressBar from "@/components/Scrollprogressbar";
+import { publications } from "@/components/Data";
 import ChevronTicker from "@/components/Ticker";
 import Nav from "@/components/Nav";
-import { publications } from "@/components/Data";
-
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
           <div className="col-span-1 mt-24">
             <h1 className="text-4xl">Hello, I am </h1>
             <h2 className="text-shadow font-bold animate-pulse py-5 text-5xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Anggieta Tri Cahyani</h2>
-            <h3>As a Marine Information Systems student with full-stack development experience across several website projects, I have a strong passion for Website Development, particularly frontend development and UI/UX design. I find immense satisfaction in building interactive and engaging user interfaces. I&apos;m also continuously deepening my backend capabilities and remain open to contributing in various roles as per team needs.</h3>
+            <h3>As a Marine Information Systems student with full-stack development experience across several website projects, I have a strong passion for Website Development, particularly frontend development and UI/UX design. I find immense satisfaction in building interactive and engaging user interfaces. I&apos:m also continuously deepening my backend capabilities and remain open to contributing in various roles as per team needs.</h3>
             <button className="rounded-lg mt-10 border-2 border-gray-700 hover:border-pink-400 pointer-events-auto">
               <a href="#" className="py-2 px-2"> Curiculum Vitae</a>
             </button>
@@ -41,20 +41,21 @@ export default function Home() {
             </div>
           </div>
           <div className="col-span-1 -mt-10">
-            <img className="md:w-full" src={"img/anggita.png"} alt="Anggieta Tri Cahyani"/>
+            <Image className="md:w-full"  width={500} height={500} src="/img/anggita.png" alt="Anggieta Tri Cahyani"/>
           </div>
         </div>
 
         <main className="relative pt-20">
           <section id="about" className="min-h-screen grid py-20 px-10 grid-cols-1 md:grid-cols-2 gap-4">
             <div  className="col-span-1 order-2 md:order-1">
-              <motion.img src={"img/anggita2.png"} className="drop-shadow-[0_0_15px_rgba(255,0,255,0.5)] pointer-events-auto w-full h-auto max-h-[500px] object-contain" alt="Anggieta Tri Cahyani 2"  initial={{ y: 50, opacity: 0 }}
+              <motion.div className="drop-shadow-[0_0_15px_rgba(255,0,255,0.5)] pointer-events-auto w-full h-auto max-h-[500px] object-contain" initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               whileHover={{ scale: 1.03 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: false }}
-              />
-              {/* <SetirScroll /> */}
+              >
+              <Image src="/img/anggita2.png" width={500} height={500} alt='Anggieta Tri Cahyani'/>
+              </motion.div>
             </div>
             <div className="col-span-1 order-1 md:order-2">
               <motion.div
@@ -68,8 +69,8 @@ export default function Home() {
               </motion.div>
               <div>
                 {[
-                  "I&apos;m Anggieta Tri Cahyani, a 7th-semester Marine Information Systems student at Universitas Pendidikan Indonesia. My interest in web development steadily grew throughout my academic journey. Initially, I wasn&apos;t sure if web development was the right path for me, given its demands for strong logic and continuous learning. However, every challenge to build a website actually ignited my curiosity about how system logic functions, pushing me to delve deeper and expand my skills.",
-                  "Over the past three years, I&apos;ve completed four full-stack web projects. Each project, despite its imperfections, has been an invaluable learning experience that continuously refined my abilities. I actively explore and apply modern frameworks like Laravel, Next.js, and React.js, especially in my most recent work.",
+                  "I&apos:m Anggieta Tri Cahyani, a 7th-semester Marine Information Systems student at Universitas Pendidikan Indonesia. My interest in web development steadily grew throughout my academic journey. Initially, I wasn&apos:t sure if web development was the right path for me, given its demands for strong logic and continuous learning. However, every challenge to build a website actually ignited my curiosity about how system logic functions, pushing me to delve deeper and expand my skills.",
+                  "Over the past three years, I&apos:ve completed four full-stack web projects. Each project, despite its imperfections, has been an invaluable learning experience that continuously refined my abilities. I actively explore and apply modern frameworks like Laravel, Next.js, and React.js, especially in my most recent work.",
                   "I thoroughly enjoy the process of building interactive and user-friendly frontend interfaces, where I can apply my creativity to the fullest. While I have a solid understanding of backend system logic, I am continuously working to deepen and optimize my proficiency in that area.",
                   "For me, the world of web development is a never-ending learning process. I embrace every challenge within it and am committed to continually enhancing my skills, particularly in frontend development, while simultaneously broadening my understanding of backend technologies."
                 ].map((text, index) => (
@@ -102,15 +103,13 @@ export default function Home() {
                   ease: "easeOut",
                 }}
               >
-                {/* Heading dan Garis */}
                 <div className="flex flex-col md:flex-row items-start md:items-center mb-10">
-                  <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900 text-transparent bg-clip-text">
+                  <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
                     My work experience
                   </h2>
                   <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-0 md:ml-6"></p>
                 </div>
 
-                {/* Timeline */}
                 <div className="px-2 md:px-10">
                   <ol className="relative border-s border-blue-500 dark:border-gray-700">
                     <li className="ms-4">
@@ -141,7 +140,7 @@ export default function Home() {
                   ease: "easeOut",
                 }}>
                 <div className="flex grid-cols-4">
-                  <h2 className="text-4xl font-bold text-start col-span-3 bg-gradient-to-r from-blue-900 via-slate-700 to-slate-400 text-transparent bg-clip-text">Things I&apos;ve Worked on, Some of Them</h2>
+                  <h2 className="text-4xl font-bold text-start col-span-3 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Things I&apos:ve Worked on, Some of Them</h2>
                   <div className="flex-1 ml-5 border-t-2 border-black h-px col-span-1 mt-5"/>
                 </div>
               </motion.div>
@@ -172,22 +171,22 @@ export default function Home() {
                     <div className="z-10 md:absolute md:bottom-0 md:left-0 flex flex-wrap gap-4 mt-5 order-2 md:order-1">
                       <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                         <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                          <img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-codeigniter-is-an-open-source-software-rapid-development-web-framework-logo-color-tal-revivo.png" alt="CodeIgniter" />
+                          <Image width={20} height={20} src="/img/CI4.png" alt="CodeIgniter" />
                         </button>
                       </div>
                       <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                         <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                          <img width="20" height="20" src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind" />
+                          <Image width={20} height={20} src="/img/tailwind.png" alt="Tailwind" />
                         </button>
                       </div>
                       <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                         <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                          <img width="20" height="20" src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="MySQL" />
+                          <Image width={20} height={20} src="/img/mysql.png" alt="MySQL" />
                         </button>
                       </div>
                     </div>
                     <a href="https://kabl.sik-upi.com/" className="z-10 md:ml-[-100px] order-1 md:order-2">
-                      <img src="img/project1.png" className="md:h-100 w-full rounded-lg" alt="project" />
+                      <Image width={500} height={500} src="/img/project1.png" className="md:h-100 w-full rounded-lg" alt="kabl" />
                     </a>
                   </div>
                 </div>
@@ -202,7 +201,7 @@ export default function Home() {
                 }}>
                 <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
                   <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
-                    <img src="img/project2.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="project"/>
+                    <Image width={500} height={500} src="/img/project2.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg"alt="fishzone"/>
                   </a>
                   <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:left-[700px] md:h-[200px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -220,17 +219,17 @@ export default function Home() {
                   <div className="md:absolute mt-5 md:bottom-0 flex-wrap gap-4 md:left-[700px] md:mt-90 z-30 flex order-4 md:order-4">
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML"/>
+                        <Image width={20} height={20} src="/img/html.png" alt="Html"/>
                       </button>
                     </div>
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="Bootstrap"/>
+                        <Image width={20} height={20} src="/img/bootstrap.png" alt="Bootstrap"/>
                       </button>
                     </div>
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="MySQL" />
+                        <Image width={20} height={20} src="/img/mysql.png" alt="MySQL" />
                       </button>
                     </div>
                   </div>
@@ -263,17 +262,17 @@ export default function Home() {
                     <div className="z-10 md:absolute md:bottom-0 md:left-0 flex flex-wrap gap-4 mt-5 order-2 md:order-1">
                       <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                         <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                          <img width="20" height="20" src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" alt="Laravel"/>
+                          <Image width={20} height={20} src="/img/laravel.png" alt="Laravel"/>
                         </button>
                       </div>
                       <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                         <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                          <img width="20" height="20" src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind"/>
+                          <Image width={20} height={20} src="/img/tailwind.png" alt="Tailwind"/>
                         </button>
                       </div>
                     </div>
                     <div className="z-10 md:ml-[-100px] order-1 md:order-2">
-                      <img src="img/project3.png" className="md:h-100 w-full rounded-lg" alt="project" />
+                      <Image width={500} height={500} src="/img/project3.png" className="md:h-100 w-full rounded-lg" alt="APP" />
                     </div>
                   </div>
                 </div>
@@ -289,7 +288,7 @@ export default function Home() {
                 >
                 <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
                   <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
-                    <img src="img/project4.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="project"/>
+                    <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="Cekin"/>
                   </a>
                   <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:left-[760px] md:h-[200px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -307,17 +306,17 @@ export default function Home() {
                   <div className="md:absolute mt-5 md:bottom-0 flex-wrap gap-4 md:left-[750px] md:mt-90 z-30 flex order-4 md:order-4">
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" alt="Laravel"/>
+                        <Image width={20} height={20} src="/img/laravel.png" alt="Laravel"/>
                       </button>
                     </div>
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind"/>
+                        <Image width={20} height={20} src="/img/tailwind.png" alt="Tailwind"/>
                       </button>
                     </div>
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=VMRAbKfEzssG&format=png&color=000000" alt="Sqlite" />
+                        <Image width={20} height={20} src="/img/mysql.png" alt="MySQL" />
                       </button>
                     </div>
                   </div>
@@ -336,7 +335,7 @@ export default function Home() {
                   ease: "easeOut",
                 }}
                 >
-              <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-red-300 via-red-500 to-red-900 text-transparent bg-clip-text">Publications</h2>
+              <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Publications</h2>
               </motion.div>
               <p className="hidden md:block flex-1 mr-10 border-r border-black"></p>
             </div>
@@ -370,12 +369,12 @@ export default function Home() {
             </div>
           </section>
           <ChevronTicker/>
-          <section className="bg-red-900 h-screen pointer-events-auto">
+          <section className="bg-pink-300 h-screen pointer-events-auto">
             <div className="md:py-40 py-20 md:px-80 items-center text-center">
               <h1 className="text-2xl text-amber-50 font-bold">Get in touch</h1>
-              <h1 className="mt-10 text-5xl text-white font-serif font-bold">Let&apos;s Work Together</h1>
+              <h1 className="mt-10 text-5xl text-white font-serif font-bold">Let&apos:s Work Together</h1>
               <p className="mt-10 text-lg text-white">
-                I’m open to new opportunities — especially exciting and challenging projects. Feel free to reach out if you have any questions or just want to say hi. I’ll do my best to get back to you!
+                I’m open to new opportunities — especially exciting and challenging projects. Feel free to reach out if you have any questions or just want to say hi. I&apos:ll do my best to get back to you!
               </p>
               <div className="mt-12 flex justify-center">
                 <button className="border border-white rounded-full px-6 py-2 transition">
