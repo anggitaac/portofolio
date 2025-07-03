@@ -186,7 +186,7 @@ export default function Home() {
                       </div>
                     </div>
                     <a href="https://kabl.sik-upi.com/" className="z-10 md:ml-[-100px] order-1 md:order-2">
-                      <img src="img/project1.png" className="md:h-100 w-full rounded-lg" alt="gambar" />
+                      <img src="img/project1.png" className="md:h-100 w-full rounded-lg" alt="project" />
                     </a>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ export default function Home() {
                 }}>
                 <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
                   <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
-                    <img src="img/project2.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg"alt="project"/>
+                    <img src="img/project2.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="project"/>
                   </a>
                   <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:left-[700px] md:h-[200px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -219,12 +219,12 @@ export default function Home() {
                   <div className="md:absolute mt-5 md:bottom-0 flex-wrap gap-4 md:left-[700px] md:mt-90 z-30 flex order-4 md:order-4">
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt=""/>
+                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML"/>
                       </button>
                     </div>
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt=""/>
+                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="Bootstrap"/>
                       </button>
                     </div>
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
@@ -262,17 +262,17 @@ export default function Home() {
                     <div className="z-10 md:absolute md:bottom-0 md:left-0 flex flex-wrap gap-4 mt-5 order-2 md:order-1">
                       <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                         <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                          <img width="20" height="20" src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000"/>
+                          <img width="20" height="20" src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" alt="Laravel"/>
                         </button>
                       </div>
                       <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                         <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                          <img width="20" height="20" src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt=""/>
+                          <img width="20" height="20" src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind"/>
                         </button>
                       </div>
                     </div>
                     <div className="z-10 md:ml-[-100px] order-1 md:order-2">
-                      <img src="img/project3.png" className="md:h-100 w-full rounded-lg" alt="gambar" />
+                      <img src="img/project3.png" className="md:h-100 w-full rounded-lg" alt="project" />
                     </div>
                   </div>
                 </div>
@@ -306,17 +306,17 @@ export default function Home() {
                   <div className="md:absolute mt-5 md:bottom-0 flex-wrap gap-4 md:left-[750px] md:mt-90 z-30 flex order-4 md:order-4">
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" alt=""/>
+                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=hUvxmdu7Rloj&format=png&color=000000" alt="Laravel"/>
                       </button>
                     </div>
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt=""/>
+                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind"/>
                       </button>
                     </div>
                     <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
                       <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=VMRAbKfEzssG&format=png&color=000000" alt="MySQL" />
+                        <img width="20" height="20" src="https://img.icons8.com/?size=100&id=VMRAbKfEzssG&format=png&color=000000" alt="Sqlite" />
                       </button>
                     </div>
                   </div>
