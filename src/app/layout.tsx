@@ -11,7 +11,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> df2286b5aa5e1467c23ddb21528ab67b93e2963f
 export default function RootLayout({
   children,
 }: Readonly<{

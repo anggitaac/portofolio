@@ -14,4 +14,8 @@ export const publications = [
     url: "https://proceedings.upi.edu/index.php/INCOMA/article/view/3503/3144",
     journal: "Jurnal Pengabdian Pada Masyarakat, 2025",
   },
+<<<<<<< HEAD
 ];
+=======
+];
+>>>>>>> df2286b5aa5e1467c23ddb21528ab67b93e2963f
