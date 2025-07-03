@@ -372,7 +372,7 @@ export default function Home() {
           <section className="bg-red-900 h-screen pointer-events-auto">
             <div className="md:py-40 py-20 md:px-80 items-center text-center">
               <h1 className="text-2xl text-amber-50 font-bold">Get in touch</h1>
-              <h1 className="mt-10 text-5xl text-white font-serif font-bold">Let's Work Together</h1>
+              <h1 className="mt-10 text-5xl text-white font-serif font-bold">Let&apos;s Work Together</h1>
               <p className="mt-10 text-lg text-white">
                 I’m open to new opportunities — especially exciting and challenging projects. Feel free to reach out if you have any questions or just want to say hi. I’ll do my best to get back to you!
               </p>
