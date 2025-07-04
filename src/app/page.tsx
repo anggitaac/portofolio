@@ -117,10 +117,10 @@ export default function Home() {
                       <time className="mb-1 text-lg font-normal leading-none text-gray-400 dark:text-gray-500">
                         Januari - Mei 2025
                       </time>
-                      <h3 className="text-xl mb-1 font-semibold text-gray-900 dark:text-white">
+                      <h3 className="text-xl mb-1 font-semibold text-gray-900 :text-white">
                         Operational Division Staff at PT Alfatih Pilar Peradaban
                       </h3>
-                      <p className="text-ml font-normal text-gray-500 dark:text-gray-400">
+                      <p className="text-ml font-normal text-gray-500">
                         During my internship program at PT Alfatih Pilar Peradaban, I served as an Operational Staff in the Port Services Division. Throughout this role, I was involved in a variety of projects that supported the company’s efforts in service innovation and regulatory compliance. One of my main responsibilities was designing and developing the company’s profile website, where I handled both the front-end and back-end using Laravel, contributing directly to the digital transformation of port-related services. Additionally, I was responsible for drafting and organizing important licensing documents related to the construction of a TERSUS (Terminal Khusus), ensuring that all documentation was accurate, well-structured, and compliant with regulatory standards. 
                       </p>
                     </li>
@@ -131,7 +131,7 @@ export default function Home() {
           </section>
 
           <section id="project" className="min-h-screen" data-bgcolor="#ffd700" data-textcolor="#ffffff">
-            <div className="md:container md:mx-auto px-2">
+            <div className="md:container md:mx-auto px-2 md:px-10">
               <motion.div initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: false }}
@@ -141,7 +141,7 @@ export default function Home() {
                 }}>
                 <div className="flex grid-cols-4">
                   <h2 className="text-4xl font-bold text-start col-span-3 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Things I've Worked on, Some of Them</h2>
-                  <div className="flex-1 ml-5 border-t-2 border-black h-px col-span-1 mt-5"/>
+                  <div className="flex-1 ml-5 borderdark-t-2 border-black h-px col-span-1 mt-5"/>
                 </div>
               </motion.div>
               <motion.div
@@ -159,7 +159,7 @@ export default function Home() {
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         Featured project
                       </p>
-                      <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900">
                         Konservasi Alam Bawah Laut Sukarame
                       </h5>
                     </a>
@@ -207,7 +207,7 @@ export default function Home() {
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         Featured project
                       </p>
-                      <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900">
                         FishZone Mapper
                       </h5>
                     </a>
@@ -250,7 +250,7 @@ export default function Home() {
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         Featured project
                       </p>
-                      <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900">
                         PT Alfatih Pilar Peradaban
                       </h5>
                     </a>
@@ -294,7 +294,7 @@ export default function Home() {
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         Featured project
                       </p>
-                      <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900">
                         CEKIN
                       </h5>
                     </a>
