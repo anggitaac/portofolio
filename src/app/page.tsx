@@ -121,7 +121,7 @@ export default function Home() {
                         Operational Division Staff at PT Alfatih Pilar Peradaban
                       </h3>
                       <p className="text-ml font-normal text-gray-500">
-                        During my internship program at PT Alfatih Pilar Peradaban, I served as an Operational Staff in the Port Services Division. Throughout this role, I was involved in a variety of projects that supported the company’s efforts in service innovation and regulatory compliance. One of my main responsibilities was designing and developing the company’s profile website, where I handled both the front-end and back-end using Laravel, contributing directly to the digital transformation of port-related services. Additionally, I was responsible for drafting and organizing important licensing documents related to the construction of a TERSUS (Terminal Khusus), ensuring that all documentation was accurate, well-structured, and compliant with regulatory standards. 
+                        During my internship program at PT Alfatih Pilar Peradaban, I served as an Operational Staff in the Port Services Division. Throughout this role, I was involved in a variety of projects that supported the company&#39;s efforts in service innovation and regulatory compliance. One of my main responsibilities was designing and developing the company&#39;s profile website, where I handled both the front-end and back-end using Laravel, contributing directly to the digital transformation of port-related services. Additionally, I was responsible for drafting and organizing important licensing documents related to the construction of a TERSUS (Terminal Khusus), ensuring that all documentation was accurate, well-structured, and compliant with regulatory standards. 
                       </p>
                     </li>
                   </ol>
@@ -256,7 +256,7 @@ export default function Home() {
                     </a>
                     <div className="z-20 md:mt-20 mt-5 w-full block md:w-[500px] h-[250px] p-6 bg-gray-700 shadow-xl rounded-md">
                       <p className="text-sm font-normal text-white dark:text-gray-400">
-                        This is the official company profile website of PT Alfatih Pilar Peradaban, created to introduce the services and expertise offered to clients and partners on a broader scale. Through this platform, visitors can explore the company’s core services, including planning, design, engineering, and port services. The website is designed to be informative and professional, offering a user-friendly experience that reflects the company’s identity and commitment to building a sustainable and excellent civilization.
+                        This is the official company profile website of PT Alfatih Pilar Peradaban, created to introduce the services and expertise offered to clients and partners on a broader scale. Through this platform, visitors can explore the company&#39;s core services, including planning, design, engineering, and port services. The website is designed to be informative and professional, offering a user-friendly experience that reflects the company&#39;s identity and commitment to building a sustainable and excellent civilization.
                       </p>
                     </div>
                     <div className="z-10 md:absolute md:bottom-0 md:left-0 flex flex-wrap gap-4 mt-5 order-2 md:order-1">
