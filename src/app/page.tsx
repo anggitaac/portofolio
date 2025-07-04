@@ -22,7 +22,7 @@ export default function Home() {
           <div className="col-span-1 mt-24">
             <h1 className="text-4xl">Hello, I am </h1>
             <h2 className="text-shadow font-bold animate-pulse py-5 text-5xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Anggieta Tri Cahyani</h2>
-            <h3>As a Marine Information Systems student with full-stack development experience across several website projects, I have a strong passion for Website Development, particularly frontend development and UI/UX design. I find immense satisfaction in building interactive and engaging user interfaces. I'm also continuously deepening my backend capabilities and remain open to contributing in various roles as per team needs.</h3>
+            <h3>As a Marine Information Systems student with full-stack development experience across several website projects, I have a strong passion for Website Development, particularly frontend development and UI/UX design. I find immense satisfaction in building interactive and engaging user interfaces. I&#39;m also continuously deepening my backend capabilities and remain open to contributing in various roles as per team needs.</h3>
             <button className="rounded-lg mt-10 border-2 border-gray-700 hover:border-pink-400 pointer-events-auto">
               <a href="#" className="py-2 px-2"> Curiculum Vitae</a>
             </button>
@@ -69,8 +69,8 @@ export default function Home() {
               </motion.div>
               <div>
                 {[
-                  "I'm Anggieta Tri Cahyani, a 7th-semester Marine Information Systems student at Universitas Pendidikan Indonesia. My interest in web development steadily grew throughout my academic journey. Initially, I wasn't sure if web development was the right path for me, given its demands for strong logic and continuous learning. However, every challenge to build a website actually ignited my curiosity about how system logic functions, pushing me to delve deeper and expand my skills.",
-                  "Over the past three years, I've completed four full-stack web projects. Each project, despite its imperfections, has been an invaluable learning experience that continuously refined my abilities. I actively explore and apply modern frameworks like Laravel, Next.js, and React.js, especially in my most recent work.",
+                  "I&#39;m Anggieta Tri Cahyani, a 7th-semester Marine Information Systems student at Universitas Pendidikan Indonesia. My interest in web development steadily grew throughout my academic journey. Initially, I wasn&#39;t sure if web development was the right path for me, given its demands for strong logic and continuous learning. However, every challenge to build a website actually ignited my curiosity about how system logic functions, pushing me to delve deeper and expand my skills.",
+                  "Over the past three years, I&#39;ve completed four full-stack web projects. Each project, despite its imperfections, has been an invaluable learning experience that continuously refined my abilities. I actively explore and apply modern frameworks like Laravel, Next.js, and React.js, especially in my most recent work.",
                   "I thoroughly enjoy the process of building interactive and user-friendly frontend interfaces, where I can apply my creativity to the fullest. While I have a solid understanding of backend system logic, I am continuously working to deepen and optimize my proficiency in that area.",
                   "For me, the world of web development is a never-ending learning process. I embrace every challenge within it and am committed to continually enhancing my skills, particularly in frontend development, while simultaneously broadening my understanding of backend technologies."
                 ].map((text, index) => (
@@ -140,7 +140,7 @@ export default function Home() {
                   ease: "easeOut",
                 }}>
                 <div className="flex grid-cols-4">
-                  <h2 className="text-4xl font-bold text-start col-span-3 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Things I've Worked on, Some of Them</h2>
+                  <h2 className="text-4xl font-bold text-start col-span-3 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Things I&#39;ve Worked on, Some of Them</h2>
                   <div className="flex-1 ml-5 borderdark-t-2 border-black h-px col-span-1 mt-5"/>
                 </div>
               </motion.div>
@@ -372,9 +372,9 @@ export default function Home() {
           <section className="bg-pink-300 h-screen pointer-events-auto">
             <div className="md:py-40 py-20 md:px-80 items-center text-center">
               <h1 className="text-2xl text-amber-50 font-bold">Get in touch</h1>
-              <h1 className="mt-10 text-5xl text-white font-serif font-bold">Let's Work Together</h1>
+              <h1 className="mt-10 text-5xl text-white font-serif font-bold">Let&#39;s Work Together</h1>
               <p className="mt-10 text-lg text-white">
-                I’m open to new opportunities — especially exciting and challenging projects. Feel free to reach out if you have any questions or just want to say hi. I'll do my best to get back to you!
+                I&#39;m open to new opportunities — especially exciting and challenging projects. Feel free to reach out if you have any questions or just want to say hi. I&#39;ll do my best to get back to you!
               </p>
               <div className="mt-12 flex justify-center">
                 <button className="border border-white rounded-full px-6 py-2 transition">
