@@ -287,10 +287,10 @@ export default function Home() {
                 }}
                 >
                 <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
-                  <a href="https://fishzonemapper.sik-upi.com/" className="w-full md:relative order-3 md:order-1 z-10">
+                  <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
                     <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="Cekin"/>
                   </a>
-                  <a href="https://fishzonemapper.sik-upi.com/" className="w-full place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:left-[760px] md:h-[200px]">
+                  <a href="https://fishzonemapper.sik-upi.com/" className="w-full place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:h-[200px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         Featured project
                       </p>
