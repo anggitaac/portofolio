@@ -139,8 +139,8 @@ export default function Home() {
                   duration: 0.6,
                   ease: "easeOut",
                 }}>
-                <div className="flex grid-cols-4">
-                  <h2 className="text-4xl flex font-bold text-start col-span-3 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Things I&#39;ve Worked on, Some of Them</h2>
+                <div className="flex flex-col md:flex-row items-start md:items-center mb-10">
+                  <h2 className="text-4xl font-bold text-start col-span-3 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Things I&#39;ve Worked on, Some of Them</h2>
                   <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-5 md:ml-6"></p>
                 </div>
               </motion.div>
