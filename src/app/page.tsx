@@ -22,7 +22,7 @@ export default function Home() {
           <div className="col-span-1 mt-24">
             <h1 className="text-4xl">Hello, I am </h1>
             <h2 className="text-shadow font-bold animate-pulse py-5 text-5xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Anggieta Tri Cahyani</h2>
-            <h3>As a Marine Information Systems student with full-stack development experience across several website projects, I have a strong passion for Website Development, particularly frontend development and UI/UX design. I find immense satisfaction in building interactive and engaging user interfaces. I&#39;m also continuously deepening my backend capabilities and remain open to contributing in various roles as per team needs.</h3>
+            <h3>As a Marine Information Systems student with full-stack development experience across several website projects, I have a strong passion for Website Development, particularly frontend and backend development. I find immense satisfaction in building interactive and engaging user interfaces. I&#39;m also continuously deepening my backend capabilities and remain open to contributing in various roles as per team needs.</h3>
             <button className="rounded-lg mt-10 border-2 border-gray-700 hover:border-pink-400 pointer-events-auto">
               <a href="#" className="py-2 px-2"> Curiculum Vitae</a>
             </button>
@@ -141,7 +141,7 @@ export default function Home() {
                 }}>
                 <div className="flex grid-cols-4">
                   <h2 className="text-4xl font-bold text-start col-span-3 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Things I&#39;ve Worked on, Some of Them</h2>
-                  <div className="flex-1 ml-5 borderdark-t-2 border-black h-px col-span-1 mt-5"/>
+                  <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-0 md:ml-6"></p>
                 </div>
               </motion.div>
               <motion.div

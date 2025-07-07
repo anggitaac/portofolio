@@ -12,6 +12,6 @@ export const publications = [
   {
     title: "Analysis of The Causes of Mangrove Ecosystem Damage in Ecotourism Development Efforts in Banten Province",
     url: "https://proceedings.upi.edu/index.php/INCOMA/article/view/3503/3144",
-    journal: "Jurnal Pengabdian Pada Masyarakat, 2025",
+    journal: "Proceedings Indonesian Conference of Maritime, 2024",
   },
 ];
