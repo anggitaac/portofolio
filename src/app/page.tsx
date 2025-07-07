@@ -381,7 +381,7 @@ export default function Home() {
                 I&#39;m open to new opportunities — especially exciting and challenging projects. Feel free to reach out if you have any questions or just want to say hi. I&#39;ll do my best to get back to you!
               </p>
               <div className="mt-12 flex justify-center">
-                <button className="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 shadow-lg shadow-pink-500/50 dark:shadow-lg dark:shadow-pink-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                <button className="text-white bg-gradient-to-r from-pink-300 via-pink-400 to-pink-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 shadow-lg shadow-pink-500/50 dark:shadow-lg dark:shadow-pink-800/80 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">
                   <a href="mailto:anggitaac33@gmail.com" className="text-white">Say HI!</a>
                 </button>
               </div>
