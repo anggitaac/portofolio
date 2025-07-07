@@ -255,7 +255,7 @@ export default function Home() {
                       </h5>
                     </a>
                     <div className="z-20 md:mt-20 mt-5 w-full block md:w-[500px] h-[250px] p-6 bg-gray-400 shadow-xl rounded-md">
-                      <p className="text-sm font-normal text-white dark:text-gray-400">
+                      <p className="text-sm font-normal text-white">
                         This is the official company profile website of PT Alfatih Pilar Peradaban, created to introduce the services and expertise offered to clients and partners on a broader scale. Through this platform, visitors can explore the company&#39;s core services, including planning, design, engineering, and port services. The website is designed to be informative and professional, offering a user-friendly experience that reflects the company&#39;s identity and commitment to building a sustainable and excellent civilization.
                       </p>
                     </div>
@@ -286,11 +286,11 @@ export default function Home() {
                   ease: "easeOut",
                 }}
                 >
-                <div className="container pointer-events-auto mt-10 flex md:place-items-center flex-col md:flex-row md:relative">
-                  <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
+                <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
+                  <a href="https://fishzonemapper.sik-upi.com/" className="w-full md:relative order-3 md:order-1 z-10">
                     <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="Cekin"/>
                   </a>
-                  <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:left-[760px] md:h-[200px]">
+                  <a href="https://fishzonemapper.sik-upi.com/" className="w-full place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:left-[760px] md:h-[200px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         Featured project
                       </p>
@@ -298,7 +298,7 @@ export default function Home() {
                         CEKIN
                       </h5>
                     </a>
-                  <div className="order-2 mt-5 md:order-3 md:absolute md:left-[550px] z-20 md:mt-25 bg-gray-400 p-6 md:w-[450px] md:h-[230px] text-white shadow-xl rounded-md">
+                  <div className="w-full order-2 mt-5 md:order-3 md:absolute md:left-[550px] z-20 md:mt-25 bg-gray-400 p-6 md:w-[450px] md:h-[230px] text-white shadow-xl rounded-md">
                     <p className="mt-3 text-sm">
                      CEKIN (short for Cek Ikan) is an educational website I developed to help the public and local fishermen identify the freshness of fish. It provides informative articles that users can read and contribute to. One of its key features is a real-time fish freshness detection system using YOLO (You Only Look Once) and Convolutional Neural Networks (CNN). This allows users to upload fish images and receive immediate freshness predictions. The website is still under active development, and some features are being refined for better performance and usability.
                     </p>
