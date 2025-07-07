@@ -19,7 +19,7 @@ export default function Home() {
           <line y1="14.5" x2="15" y2="14.5" stroke="#FFFFFF"/>
         </svg>
         <div className="grid place-items-start grid-cols-1 md:grid-cols-2 gap-4 w-full px-6 md:px-20">
-          <div className="col-span-1 mt-24 pointer-events-auto">
+          <div className="col-span-1 mt-24">
             <h1 className="text-4xl">Hello, I am </h1>
             <h2 className="text-shadow font-bold animate-pulse py-5 text-5xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Anggieta Tri Cahyani</h2>
             <h3>As a Marine Information Systems student with full-stack development experience across several website projects, I have a strong passion for Website Development, particularly frontend development and UI/UX design. I find immense satisfaction in building interactive and engaging user interfaces. I&#39;m also continuously deepening my backend capabilities and remain open to contributing in various roles as per team needs.</h3>
@@ -41,14 +41,14 @@ export default function Home() {
             </div>
           </div>
           <div className="col-span-1 -mt-10">
-            <Image className="md:w-full pointer-events-auto"  width={500} height={500} src="/img/anggita.png" alt="Anggieta Tri Cahyani"/>
+            <Image className="md:w-full"  width={500} height={500} src="/img/anggita.png" alt="Anggieta Tri Cahyani"/>
           </div>
         </div>
 
         <main className="relative pt-20">
-          <section id="about" className="min-h-screen grid py-20 px-10 grid-cols-1 md:grid-cols-2 gap-4 pointer-events-auto">
+          <section id="about" className="min-h-screen grid py-20 px-10 grid-cols-1 md:grid-cols-2 gap-4">
             <div  className="col-span-1 order-2 md:order-1">
-              <motion.div className="drop-shadow-[0_0_15px_rgba(255,0,255,0.5)] pointer-events-auto w-full h-auto max-h-[500px] object-contain" initial={{ y: 50, opacity: 0 }}
+              <motion.div className="drop-shadow-[0_0_15px_rgba(255,0,255,0.5)] w-full h-auto max-h-[500px] object-contain" initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               whileHover={{ scale: 1.03 }}
               transition={{ duration: 0.6 }}
@@ -110,7 +110,7 @@ export default function Home() {
                   <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-0 md:ml-6"></p>
                 </div>
 
-                <div className="px-2 md:px-10 pointer-events-auto">
+                <div className="px-2 md:px-10">
                   <ol className="relative border-s border-blue-500 dark:border-gray-700">
                     <li className="ms-4">
                       <div className="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -start-1.5 border border-blue-600 dark:border-gray-900 dark:bg-gray-700"></div>
@@ -286,8 +286,8 @@ export default function Home() {
                   ease: "easeOut",
                 }}
                 >
-                <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row">
-                  <a href="https://fishzonemapper.sik-upi.com/" className="order-3 md:order-1 z-10">
+                <div className="container pointer-events-auto mt-10 flex justify-center flex-col md:flex-row md:relative">
+                  <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
                     <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="Cekin"/>
                   </a>
                   <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:left-[760px] md:h-[200px]">
