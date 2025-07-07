@@ -286,7 +286,7 @@ export default function Home() {
                   ease: "easeOut",
                 }}
                 >
-                <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
+                {/* <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
                   <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
                     <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="Cekin"/>
                   </a>
@@ -320,7 +320,36 @@ export default function Home() {
                       </button>
                     </div>
                   </div>
-                </div>
+                </div> */}
+                <div className="relative flex justify-center mt-10">
+  {/* Gambar */}
+  <a href="https://fishzonemapper.sik-upi.com/" className="z-10 w-full max-w-5xl">
+    <Image
+      width={1000}
+      height={600}
+      src="/img/project4.png"
+      alt="CEKIN"
+      className="w-full object-cover rounded-lg shadow-lg"
+    />
+  </a>
+
+  {/* Judul & Heading */}
+  <a
+    href="https://fishzonemapper.sik-upi.com/"
+    className="absolute top-5 left-5 md:left-10 text-white z-30 bg-white/90 p-4 rounded-md shadow-md max-w-[300px]"
+  >
+    <p className="font-normal text-gray-700">Featured project</p>
+    <h5 className="mt-2 text-2xl font-bold text-gray-900">CEKIN</h5>
+  </a>
+
+  {/* Card Deskripsi */}
+  <div className="absolute top-32 right-5 md:right-10 bg-gray-400 p-6 max-w-md text-white rounded-md shadow-xl z-20">
+    <p className="text-sm">
+      CEKIN (short for Cek Ikan) is an educational website I developed to help the public and local fishermen identify the freshness of fish. It provides informative articles... (dst).
+    </p>
+  </div>
+</div>
+
               </motion.div>
             </div>
           </section>
