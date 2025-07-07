@@ -232,7 +232,7 @@ export default function Home() {
                       </div>
                     </div>
                     <a href="https://fishzonemapper.sik-upi.com/" className="z-10 md:ml-[-100px] order-1 md:order-2">
-                      <Image width={500} height={500} src="/img/project2.png" className="md:h-100 w-full rounded-lg" alt="kabl" />
+                      <Image width={500} height={500} src="/img/project2.png" className="md:h-100 w-full rounded-lg" alt="fishzonemapper" />
                     </a>
                   </div>
                 </div>
@@ -321,7 +321,7 @@ export default function Home() {
                       </div>
                     </div>
                     <a href="https://fishzonemapper.sik-upi.com/" className="z-10 md:ml-[-100px] order-1 md:order-2">
-                      <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full rounded-lg" alt="kabl" />
+                      <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full rounded-lg" alt="cekin" />
                     </a>
                   </div>
                 </div>
