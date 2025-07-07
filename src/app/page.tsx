@@ -104,10 +104,10 @@ export default function Home() {
                 }}
               >
                 <div className="flex flex-col md:flex-row place-items-center md:place-items-start mb-10">
-                  <h2 className="text-4xl  md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
+                  <h2 className="text-4xl mb-2 md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
                     My work experience
                   </h2>
-                  <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-0 md:ml-6"></p>
+                  <p className="w-full md:flex-1 border-t-2 border-gray-600 mt-4 md:mt-5 md:ml-6"></p>
                 </div>
 
                 <div className="px-2 md:px-10">
@@ -140,10 +140,10 @@ export default function Home() {
                   ease: "easeOut",
                 }}>
                 <div className="flex flex-col md:flex-row place-items-center md:place-items-start">
-                  <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
+                  <h2 className="text-4xl mb-2 md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
                     Things I&#39;ve Worked on, Some of Them
                   </h2>
-                  <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-0 md:ml-6"></p>
+                  <p className="w-full md:flex-1 border-t-2 border-gray-600 mt-4 md:mt-5 md:ml-6"></p>
                 </div>
               </motion.div>
               <motion.div
