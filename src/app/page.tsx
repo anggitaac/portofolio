@@ -321,7 +321,7 @@ export default function Home() {
                       </div>
                     </div>
                     <a href="https://fishzonemapper.sik-upi.com/" className="z-10 md:ml-[-100px] order-1 md:order-2">
-                      <Image width={500} height={500} src="/img/project2.png" className="md:h-100 w-full rounded-lg" alt="kabl" />
+                      <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full rounded-lg" alt="kabl" />
                     </a>
                   </div>
                 </div>
@@ -381,7 +381,7 @@ export default function Home() {
                 I&#39;m open to new opportunities — especially exciting and challenging projects. Feel free to reach out if you have any questions or just want to say hi. I&#39;ll do my best to get back to you!
               </p>
               <div className="mt-12 flex justify-center">
-                <button className="border border-white rounded-full px-6 py-2 transition">
+                <button className="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 shadow-lg shadow-pink-500/50 dark:shadow-lg dark:shadow-pink-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
                   <a href="mailto:anggitaac33@gmail.com" className="text-white">Say HI!</a>
                 </button>
               </div>
