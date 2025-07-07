@@ -104,7 +104,7 @@ export default function Home() {
                 }}
               >
                 <div className="flex flex-col md:flex-row items-start md:items-center mb-10">
-                  <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
+                  <h2 className="text-4xl md:text-center md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
                     My work experience
                   </h2>
                   <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-0 md:ml-6"></p>
@@ -139,16 +139,12 @@ export default function Home() {
                   duration: 0.6,
                   ease: "easeOut",
                 }}>
-                <div className="flex flex-col md:flex-row items-start md:items-center mb-10">
-                  <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
+                <div className="flex flex-col md:flex-row items-start md:items-center">
+                  <h2 className="md:text-center text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">
                     Things I&#39;ve Worked on, Some of Them
                   </h2>
                   <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-0 md:ml-6"></p>
                 </div>
-                {/* <div className="flex flex-col md:flex-row items-start md:items-center mb-10">
-                  <h2 className="text-4xl font-bold text-start col-span-3 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Things I&#39;ve Worked on, Some of Them</h2>
-                  <p className="w-full md:flex-1 border-t-2 border-black mt-4 md:mt-5 md:ml-6"></p>
-                </div> */}
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -345,7 +341,7 @@ export default function Home() {
                   ease: "easeOut",
                 }}
                 >
-              <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Publications</h2>
+              <h2 className="text-5xl md:text-center font-bold mb-8 bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Publications</h2>
               </motion.div>
               <p className="hidden md:block flex-1 mr-10 border-r border-black"></p>
             </div>
