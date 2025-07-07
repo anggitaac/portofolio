@@ -199,11 +199,9 @@ export default function Home() {
                   duration: 0.6,
                   ease: "easeOut",
                 }}>
-                <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
-                  <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
-                    <Image width={500} height={500} src="/img/project2.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg"alt="fishzone"/>
-                  </a>
-                  <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:left-[700px] md:h-[200px]">
+                <div className="py-10 pointer-events-auto">
+                  <div className="container mt-10 flex flex-col md:flex-row md:relative">
+                    <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center z-30 md:absolute w-full md:place-items-start md:w-[400px] md:h-[100px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         Featured project
                       </p>
@@ -211,27 +209,31 @@ export default function Home() {
                         FishZone Mapper
                       </h5>
                     </a>
-                  <div className="order-2 mt-5 md:order-3 md:absolute md:left-[550px] z-20 md:mt-25 bg-gray-400 p-6 md:w-[450px] md:h-[230px] text-white shadow-xl rounded-md">
-                    <p className="mt-3 text-sm">
-                      This website is dedicated to fishermen around Banten Bay, aiming to streamline fishing activities. Its core feature is displaying fishing zone (ZPPI) locations according to seasonal patterns. The platform integrates oceanographic and fisheries data to provide accurate, real-time spatial information on potential fishing grounds. This enables fishermen to optimize their routes, save fuel, and improve both efficiency and catch yields.
-                    </p>
-                  </div>
-                  <div className="md:absolute mt-5 md:bottom-0 flex-wrap gap-4 md:left-[700px] md:mt-90 z-30 flex order-4 md:order-4">
-                    <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
-                      <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <Image width={20} height={20} src="/img/html.png" alt="Html"/>
-                      </button>
+                    <div className="z-20 md:mt-30 mt-10 flex flex-col-reverse md:flex-row w-fullplace-items-center md:w-[500px] md:h-[200px] p-6 bg-gray-400 shadow-xl rounded-md"> 
+                      <p className="font-normal text-sm text-white">
+                        This website is dedicated to fishermen around Banten Bay, aiming to streamline fishing activities. Its core feature is displaying fishing zone (ZPPI) locations according to seasonal patterns. The platform integrates oceanographic and fisheries data to provide accurate, real-time spatial information on potential fishing grounds. This enables fishermen to optimize their routes, save fuel, and improve both efficiency and catch yields.
+                      </p>
                     </div>
-                    <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
-                      <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <Image width={20} height={20} src="/img/bootstrap.png" alt="Bootstrap"/>
-                      </button>
+                    <div className="z-10 md:absolute md:bottom-0 md:left-0 flex flex-wrap gap-4 mt-5 order-2 md:order-1">
+                      <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
+                        <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
+                          <Image width={20} height={20} src="/img/html.png" alt="Html" />
+                        </button>
+                      </div>
+                      <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
+                        <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
+                          <Image width={20} height={20} src="/img/bootstrap.png" alt="Bootstrap" />
+                        </button>
+                      </div>
+                      <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
+                        <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
+                          <Image width={20} height={20} src="/img/mysql.png" alt="MySQL" />
+                        </button>
+                      </div>
                     </div>
-                    <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
-                      <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <Image width={20} height={20} src="/img/mysql.png" alt="MySQL" />
-                      </button>
-                    </div>
+                    <a href="https://fishzonemapper.sik-upi.com/" className="z-10 md:ml-[-100px] order-1 md:order-2">
+                      <Image width={500} height={500} src="/img/project2.png" className="md:h-100 w-full rounded-lg" alt="kabl" />
+                    </a>
                   </div>
                 </div>
               </motion.div>
@@ -286,11 +288,9 @@ export default function Home() {
                   ease: "easeOut",
                 }}
                 >
-                {/* <div className="container pointer-events-auto mt-10 flex flex-col md:flex-row md:relative">
-                  <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
-                    <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="Cekin"/>
-                  </a>
-                  <a href="https://fishzonemapper.sik-upi.com/" className="w-full place-items-center md:place-items-start order-1 md:order-2 z-30 md:absolute md:w-[400px] md:mt-2 md:h-[200px]">
+                <div className="py-10 pointer-events-auto">
+                  <div className="container mt-10 flex flex-col md:flex-row md:relative">
+                    <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center z-30 md:absolute w-full md:place-items-start md:w-[400px] md:h-[100px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         Featured project
                       </p>
@@ -298,58 +298,33 @@ export default function Home() {
                         CEKIN
                       </h5>
                     </a>
-                  <div className="w-full order-2 mt-5 md:order-3 md:absolute md:left-[550px] z-20 md:mt-25 bg-gray-400 p-6 md:w-[450px] md:h-[230px] text-white shadow-xl rounded-md">
-                    <p className="mt-3 text-sm">
-                     CEKIN (short for Cek Ikan) is an educational website I developed to help the public and local fishermen identify the freshness of fish. It provides informative articles that users can read and contribute to. One of its key features is a real-time fish freshness detection system using YOLO (You Only Look Once) and Convolutional Neural Networks (CNN). This allows users to upload fish images and receive immediate freshness predictions. The website is still under active development, and some features are being refined for better performance and usability.
-                    </p>
+                    <div className="z-20 md:mt-30 mt-10 flex flex-col-reverse md:flex-row w-fullplace-items-center md:w-[500px] md:h-[200px] p-6 bg-gray-400 shadow-xl rounded-md"> 
+                      <p className="font-normal text-sm text-white">
+                        CEKIN (Cek Ikan) is an educational website I developed to help the public and local fishermen identify the freshness of fish. It provides informative articles that users can read and contribute to. One of its key features is a real-time fish freshness detection system using YOLO (You Only Look Once) and Convolutional Neural Networks (CNN). This allows users to upload fish images and receive immediate freshness predictions. The website is still under active development, and some features are being refined for better performance and usability.
+                      </p>
+                    </div>
+                    <div className="z-10 md:absolute md:bottom-0 md:left-0 flex flex-wrap gap-4 mt-5 order-2 md:order-1">
+                      <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
+                        <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
+                          <Image width={20} height={20} src="/img/laravel.png" alt="Laravel" />
+                        </button>
+                      </div>
+                      <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
+                        <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
+                          <Image width={20} height={20} src="/img/tailwind.png" alt="Tailwind" />
+                        </button>
+                      </div>
+                      <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
+                        <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
+                          <Image width={20} height={20} src="/img/sqlite.png" alt="Sqlite" />
+                        </button>
+                      </div>
+                    </div>
+                    <a href="https://fishzonemapper.sik-upi.com/" className="z-10 md:ml-[-100px] order-1 md:order-2">
+                      <Image width={500} height={500} src="/img/project2.png" className="md:h-100 w-full rounded-lg" alt="kabl" />
+                    </a>
                   </div>
-                  <div className="md:absolute mt-5 md:bottom-0 flex-wrap gap-4 md:left-[750px] md:mt-90 z-30 flex order-4 md:order-4">
-                    <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
-                      <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <Image width={20} height={20} src="/img/laravel.png" alt="Laravel"/>
-                      </button>
-                    </div>
-                    <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
-                      <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <Image width={20} height={20} src="/img/tailwind.png" alt="Tailwind"/>
-                      </button>
-                    </div>
-                    <div className="p-[2px] rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 inline-block">
-                      <button className="bg-white text-black rounded-lg flex items-center gap-x-2 px-3 py-1">
-                        <Image width={20} height={20} src="/img/mysql.png" alt="MySQL" />
-                      </button>
-                    </div>
-                  </div>
-                </div> */}
-                <div className="relative flex justify-center mt-10">
-  {/* Gambar */}
-  <a href="https://fishzonemapper.sik-upi.com/" className="z-10 w-full max-w-5xl">
-    <Image
-      width={1000}
-      height={600}
-      src="/img/project4.png"
-      alt="CEKIN"
-      className="w-full object-cover rounded-lg shadow-lg"
-    />
-  </a>
-
-  {/* Judul & Heading */}
-  <a
-    href="https://fishzonemapper.sik-upi.com/"
-    className="absolute top-5 left-5 md:left-10 text-white z-30 bg-white/90 p-4 rounded-md shadow-md max-w-[300px]"
-  >
-    <p className="font-normal text-gray-700">Featured project</p>
-    <h5 className="mt-2 text-2xl font-bold text-gray-900">CEKIN</h5>
-  </a>
-
-  {/* Card Deskripsi */}
-  <div className="absolute top-32 right-5 md:right-10 bg-gray-400 p-6 max-w-md text-white rounded-md shadow-xl z-20">
-    <p className="text-sm">
-      CEKIN (short for Cek Ikan) is an educational website I developed to help the public and local fishermen identify the freshness of fish. It provides informative articles... (dst).
-    </p>
-  </div>
-</div>
-
+                </div>
               </motion.div>
             </div>
           </section>
