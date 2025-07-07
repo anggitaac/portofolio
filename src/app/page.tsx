@@ -254,7 +254,7 @@ export default function Home() {
                         PT Alfatih Pilar Peradaban
                       </h5>
                     </a>
-                    <div className="z-20 md:mt-20 mt-5 w-full block md:w-[500px] h-[250px] p-6 bg-gray-700 shadow-xl rounded-md">
+                    <div className="z-20 md:mt-20 mt-5 w-full block md:w-[500px] h-[250px] p-6 bg-gray-400 shadow-xl rounded-md">
                       <p className="text-sm font-normal text-white dark:text-gray-400">
                         This is the official company profile website of PT Alfatih Pilar Peradaban, created to introduce the services and expertise offered to clients and partners on a broader scale. Through this platform, visitors can explore the company&#39;s core services, including planning, design, engineering, and port services. The website is designed to be informative and professional, offering a user-friendly experience that reflects the company&#39;s identity and commitment to building a sustainable and excellent civilization.
                       </p>
@@ -286,7 +286,7 @@ export default function Home() {
                   ease: "easeOut",
                 }}
                 >
-                <div className="container pointer-events-auto mt-10 flex justify-center flex-col md:flex-row md:relative">
+                <div className="container pointer-events-auto mt-10 flex md:place-items-center flex-col md:flex-row md:relative">
                   <a href="https://fishzonemapper.sik-upi.com/" className="md:relative order-3 md:order-1 z-10">
                     <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full object-cover rounded-lg shadow-lg" alt="Cekin"/>
                   </a>
