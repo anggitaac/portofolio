@@ -24,7 +24,7 @@ export default function Home() {
             <h2 className="text-shadow font-bold animate-pulse py-5 text-5xl bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-transparent bg-clip-text">Anggieta Tri Cahyani</h2>
             <h3>As a Marine Information Systems student with full-stack development experience across several website projects, I have a strong passion for Website Development, particularly frontend and backend development. I find immense satisfaction in building interactive and engaging user interfaces. I&#39;m also continuously deepening my backend capabilities and remain open to contributing in various roles as per team needs.</h3>
             <button className="rounded-lg mt-10 border-2 border-gray-700 hover:border-pink-400 pointer-events-auto">
-              <a href="#" className="py-2 px-2"> Curiculum Vitae</a>
+              <a href="/img/CV Anggieta Tri Cahyani.pdf" className="py-2 px-2"> Curiculum Vitae</a>
             </button>
             <p className="mt-10 border-b-1"></p>
 
@@ -252,7 +252,7 @@ export default function Home() {
                   <div className="container mt-10 flex flex-col md:flex-row md:relative">
                     <a href="#" className="place-items-center z-30 md:absolute w-full md:place-items-start md:w-[400px] md:h-[100px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
-                        Pivate Project - Not deployed per client&#39;s request
+                        Pivate Project - Not deployed
                       </p>
                       <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900">
                         PT Alfatih Pilar Peradaban
