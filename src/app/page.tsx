@@ -131,7 +131,7 @@ export default function Home() {
           </section>
 
           <section id="project" className="min-h-screen" data-bgcolor="#ffd700" data-textcolor="#ffffff">
-            <div className="md:container md:mx-auto px-2 md:px-10">
+            <div className="md:container md:mx-auto px-2 md:px-6">
               <motion.div initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: false }}
@@ -252,7 +252,7 @@ export default function Home() {
                   <div className="container mt-10 flex flex-col md:flex-row md:relative">
                     <a href="#" className="place-items-center z-30 md:absolute w-full md:place-items-start md:w-[400px] md:h-[100px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
-                        Featured project
+                        Pivate Project - Not deployed per client&#39;s request
                       </p>
                       <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900">
                         PT Alfatih Pilar Peradaban
@@ -294,7 +294,7 @@ export default function Home() {
                   <div className="container mt-10 flex flex-col md:flex-row md:relative">
                     <a href="https://fishzonemapper.sik-upi.com/" className="place-items-center z-30 md:absolute w-full md:place-items-start md:w-[400px] md:h-[100px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
-                        Featured project
+                        On-going Project
                       </p>
                       <h5 className="mt-2 text-2xl font-bold tracking-tight text-gray-900">
                         CEKIN
