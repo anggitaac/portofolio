@@ -155,7 +155,7 @@ export default function Home() {
                   ease: "easeOut",
                 }}
                 >
-                <div className="py-10 pointer-events-auto">
+                <div className="py-10 pointer-events-auto duration-300 ease-in-out">
                   <div className="container mt-10 flex flex-col md:flex-row md:relative">
                     <a href="https://kabl.sik-upi.com/" className="place-items-center z-30 md:absolute w-full md:place-items-start md:w-[400px] md:h-[100px]">
                       <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -322,7 +322,7 @@ export default function Home() {
                         </button>
                       </div>
                     </div>
-                    <a href="#" className="z-10 md:ml-[-100px] order-1 md:order-2 duration-300 ease-in-out">
+                    <a href="#" className="z-10 md:ml-[-100px] order-1 md:order-2">
                       <Image width={500} height={500} src="/img/project4.png" className="md:h-100 w-full rounded-lg" alt="cekin" />
                     </a>
                   </div>
