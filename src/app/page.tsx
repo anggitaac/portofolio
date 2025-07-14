@@ -300,7 +300,7 @@ export default function Home() {
                         CEKIN
                       </h5>
                     </a>
-                    <div className="z-20 md:mt-30 mt-10 flex flex-col-reverse md:flex-row w-fullplace-items-center md:w-[500px] md:h-[200px] p-6 bg-gray-400 shadow-xl rounded-md"> 
+                    <div className="z-20 md:mt-30 mt-10 flex flex-col-reverse md:flex-row w-fullplace-items-center md:w-[500px] md:h-[300px] p-6 bg-gray-400 shadow-xl rounded-md"> 
                       <p className="font-normal text-sm text-white">
                         CEKIN (Cek Ikan) is an educational website I developed to help the public and local fishermen identify the freshness of fish. It provides informative articles that users can read and contribute to. One of its key features is a real-time fish freshness detection system using YOLO (You Only Look Once) and Convolutional Neural Networks (CNN). This allows users to upload fish images and receive immediate freshness predictions. The website is still under active development, and some features are being refined for better performance and usability.
                       </p>
