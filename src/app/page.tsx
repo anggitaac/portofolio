@@ -131,7 +131,7 @@ export default function Home() {
           </section>
 
           <section id="project" className="min-h-screen" data-bgcolor="#ffd700" data-textcolor="#ffffff">
-            <div className="md:container md:mx-auto px-2 md:px-6">
+            <div className="md:container md:mx-auto px-2 md:px-4">
               <motion.div initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: false }}
