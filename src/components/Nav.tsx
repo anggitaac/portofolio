@@ -41,8 +41,8 @@ export default function Nav() {
               <a
                 key={id}
                 href={`#${id}`}
-                className={`transition pointer-events-auto hover:text-pink-400 ${
-                  activeSection === id ? "text-pink-500 font-bold" : ""
+                className={`transition pointer-events-auto hover:text-blue-400 ${
+                  activeSection === id ? "text-blue-500 font-bold" : ""
                 }`}
               >
                 {id.charAt(0).toUpperCase() + id.slice(1)}
@@ -83,8 +83,8 @@ export default function Nav() {
             <li key={id}>
               <a
                 href={`#${id}`}
-                className={`hover:text-pink-400 ${
-                  activeSection === id ? "text-pink-500 font-bold" : ""
+                className={`hover:text-blue-400 ${
+                  activeSection === id ? "text-blue-500 font-bold" : ""
                 }`}
                 onClick={toggleBurger}
               >
