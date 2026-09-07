@@ -22,7 +22,7 @@ export default function Home() {
           <div className="col-span-1 mt-20">
             <h1 className="text-4xl">Hello, I am </h1>
             <h2 className="text-shadow font-bold animate-pulse py-5 text-5xl bg-gradient-to-r from-blue-500 via-indigo-400 to-purple-500 text-transparent bg-clip-text">Anggieta Tri Cahyani</h2>
-            <h3>As a fresh graduate in Marine Information Systems with hands-on experience in full-stack web development and applied AI, I have a strong passion for building interactive, user-friendly interfaces while continuously sharpening my backend and data analysis skills. I enjoy solving problems from different angles, whether it's frontend design, backend logic, or turning data into insights, and I stay adaptable to contribute wherever a team needs me.</h3>
+            <h3>As a fresh graduate in Marine Information Systems with hands-on experience in full-stack web development and applied AI, I have a strong passion for building interactive, user-friendly interfaces while continuously sharpening my backend and data analysis skills. I enjoy solving problems from different angles, whether it&apos;s frontend design, backend logic, or turning data into insights, and I stay adaptable to contribute wherever a team needs me.</h3>
             <button className="rounded-lg mt-10 border-2 border-gray-700 hover:border-blue-400 pointer-events-auto">
               <a href="/img/CV Anggieta Tri Cahyani.pdf" className="py-2 px-2"> Curriculum Vitae</a>
             </button>
