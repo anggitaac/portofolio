@@ -36,13 +36,13 @@ export default function Nav() {
         <div className="flex items-center justify-between px-6 py-4 w-full">
           <div className="w-1/3 md:hidden" />
 
-          <div className="hidden md:flex gap-10 justify-center flex-1 text-black">
+          <div className="hidden md:flex gap-15 justify-center flex-1 md:text-xl text-black">
             {sections.map((id) => (
               <a
                 key={id}
                 href={`#${id}`}
-                className={`transition pointer-events-auto hover:text-blue-400 ${
-                  activeSection === id ? "text-blue-500 font-bold" : ""
+                className={`transition pointer-events-auto hover:text-[#D45060] ${
+                  activeSection === id ? "text-[#D45060] font-bold" : ""
                 }`}
               >
                 {id.charAt(0).toUpperCase() + id.slice(1)}
