@@ -108,13 +108,13 @@ export default function Home() {
                       </p>
 
                       <div className="flex flex-wrap gap-3 mb-5">
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Web Development
                         </span>
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Laravel
                         </span>
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Documentation
                         </span>
                       </div>
@@ -142,13 +142,13 @@ export default function Home() {
                         </p>
 
                         <div className="flex flex-wrap gap-3 mb-5">
-                          <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                          <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                             AI
                           </span>
-                          <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                          <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                             Data Analysis
                           </span>
-                          <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                          <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                             ITMP
                           </span>
                         </div>
@@ -183,13 +183,13 @@ export default function Home() {
                       </p>
 
                       <div className="flex flex-wrap gap-3 mb-5">
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Finance
                         </span>
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Budgeting
                         </span>
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Reporting
                         </span>
                       </div>
@@ -221,13 +221,13 @@ export default function Home() {
                       </p>
 
                       <div className="flex flex-wrap gap-3 mb-5">
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Financial Management
                         </span>
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Budgeting
                         </span>
-                        <span className="text-xs uppercase tracking-wide text-gray-400 border border-gray-700 rounded px-3 py-1.5">
+                        <span className="text-xs uppercase tracking-wide text-[#800020] border border-[#800020] rounded px-3 py-1.5">
                           Event Planning
                         </span>
                       </div>
