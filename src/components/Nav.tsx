@@ -83,8 +83,8 @@ export default function Nav() {
             <li key={id}>
               <a
                 href={`#${id}`}
-                className={`hover:text-blue-400 ${
-                  activeSection === id ? "text-blue-500 font-bold" : ""
+                className={`hover:text-[#D45060] ${
+                  activeSection === id ? "text-[#D45060] font-bold" : ""
                 }`}
                 onClick={toggleBurger}
               >

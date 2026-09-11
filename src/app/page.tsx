@@ -7,6 +7,10 @@ import Nav from "@/components/Nav";
 import Image from 'next/image';
 import React from 'react';
 import { FaAngleDown } from 'react-icons/fa';
+import { FaGraduationCap } from "react-icons/fa";
+import { FaRegCalendarAlt } from "react-icons/fa";
+import { FaRegStar } from "react-icons/fa";
+import { FaRegFileAlt } from "react-icons/fa";
 
 
 export default function Home() {
@@ -20,18 +24,18 @@ export default function Home() {
           <line y1="9.5" x2="24" y2="9.5" stroke="#FFFFFF"/>
           <line y1="14.5" x2="15" y2="14.5" stroke="#FFFFFF"/>
         </svg>
-        <main className="relative z-10 flex flex-col items-center justify-center min-h-screen bg-transparent">
-          <section id="about" className="flex flex-col items-center justify-center w-full h-full py-20"> 
+        <main className="md:py-10 relative z-10 flex flex-col items-center justify-center min-h-screen bg-transparent">
+          <section id="about" className="flex flex-col items-center justify-center w-full h-full py-10"> 
             <div className="grid place-items-center grid-cols-1 md:grid-cols-12 gap-8 w-full px-6 md:px-20">
               <div className="col-span-1 md:col-span-7 mt-20">
                 <h1 className="text-4xl">Hello, I am </h1>
                 <h2 className="text-shadow font-bold animate-pulse py-5 text-5xl md:text-7xl bg-gradient-to-r from-[#F29191] via-[#D45060] to-[#800020] text-transparent bg-clip-text">Anggieta Tri Cahyani</h2>
-                <h3 className="mt-5 md:mt-5 text-l md:text-2xl font-light font-stretch-condensed">As a fresh graduate in Marine Information Systems with hands-on experience in full-stack web development and applied AI, I have a strong passion for building interactive, user-friendly interfaces while continuously sharpening my backend and data analysis skills. I enjoy solving problems from different angles, whether it&apos;s frontend design, backend logic, or turning data into insights, and I stay adaptable to contribute wherever a team needs me.</h3>
-                <button className="rounded-full mt-10 bg-[#D45060] hover:bg-[#800020] pointer-events-auto">
-                  <a href="/img/CV Anggieta Tri Cahyani.pdf" className="px-5 py-5 text-[#FFF9F2] text-lg md:text-2xl flex items-center gap-2"> Curriculum Vitae <FaAngleDown /></a>
+                <h3 className="mt-5 md:mt-5 text-l md:text-2xl font-light font-stretch-condensed">I am a fresh graduate in Marine Information Systems with hands-on experience in web development, data analysis, machine learning, and applied AI. I enjoy building practical digital solutions, exploring data to uncover insights, and developing intelligent systems to solve real-world problems. With a background that combines software development and data-driven projects, I am always eager to learn, adapt, and contribute to meaningful projects.</h3>
+                <button className="rounded-full mt-10 bg-[#D45060] border-2 border-[#D45060] hover:bg-[#800020] pointer-events-auto">
+                  <a href="/img/CV Anggieta Tri Cahyani.pdf" className="px-2 md:px-5 py-2 md:py-5 text-sm text-[#FFF9F2] md:text-2xl flex items-center gap-2"> Curriculum Vitae <FaAngleDown /></a>
                 </button>
                 <button className="ml-5 md:ml-10 rounded-full mt-10 border-2 hover:border-[#800020] pointer-events-auto">
-                  <a href="#contactme" className="px-5 py-5 text-lg md:text-2xl flex items-center gap-2"> Get in touch </a>
+                  <a href="#contactme" className="px-2 md:px-5 py-2 md:py-5 text-sm md:text-2xl flex items-center gap-2"> Get in touch </a>
                 </button>
                 <p className="mt-10 border-b-1"></p>
 
@@ -47,11 +51,47 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="col-span-1 md:col-span-5 -mt-10 flex justify-end">
-                <Image className="w-full" width={700} height={700} src="/img/anggita.png" alt="Anggieta Tri Cahyani"/>
+              <div className="col-span-1 md:col-span-5 -mt-10 md:ml-15 justify-end">
+                <Image className="w-full" width={600} height={600} src="/img/anggita.png" alt="Anggieta Tri Cahyani"/>
+                <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: false }}
+                transition={{
+                  duration: 0.6,
+                  ease: "easeOut",
+                }}
+                >
+                  <div className="w-full max-w-2xl mx-auto border-2 border-[#800020] bg-[#FFF9F2] rounded-3xl p-5 md:p-6 shadow-md">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                      <div className="p-1 md:p-3 rounded-2xl bg-[#D45060] text-amber-50 shrink-0 self-center sm:self-auto">
+                        <FaGraduationCap className="w-5 h-5 md:h-10 md:w-10 " />
+                      </div>
+                      <div className="flex-1 w-full">
+                        <h3 className="text-sm md:text-xl font-bold text-gray-900 leading-snug">
+                          Bachelor of Science, Marine Information System
+                        </h3>
+                        <p className="text-sm md:text-md font-semibold text-gray-700 mt-1">
+                          Universitas Pendidikan Indonesia
+                        </p>
+                        <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600 mt-2">
+                          <span className="flex items-center gap-1.5">
+                            <FaRegCalendarAlt /> 2022–2026
+                          </span>
+                          <span className="flex items-center gap-1.5">
+                            <FaRegStar className="text-amber-500" /> GPA 3.90/4.00
+                          </span>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </motion.div>
               </div>
             </div>
           </section>
+
+          
 
           <section id="experience" className="py-20 bg-[#F3E6D5]">
             <div className="px-10 md:px-20">
@@ -303,7 +343,7 @@ export default function Home() {
                         </button>
                       </div>
                     </div>
-                    <a href="" className="z-10 md:ml-[-100px] order-1 md:order-2">
+                    <a href="https://drive.google.com/drive/folders/1ifhBce4fnHjUmnlAsfOHOO_oaTamCp93?usp=sharing" className="z-10 md:ml-[-100px] order-1 md:order-2">
                       <Image width={500} height={500} src="/img/project1.png" className="md:h-150 md:w-300 w-full rounded-lg" alt="kabl" />
                     </a>
                   </div>
@@ -349,7 +389,7 @@ export default function Home() {
                         </button>
                       </div>
                     </div>
-                    <a href="https://fishzonemapper.sik-upi.com/" className="z-10 md:ml-[-100px] order-1 md:order-2">
+                    <a href="https://drive.google.com/drive/folders/1SAe8Qr5lHiCMK4769KMKovpdqEFKHQNE?usp=sharing" className="z-10 md:ml-[-100px] order-1 md:order-2">
                       <Image width={500} height={500} src="/img/project2.png" className="md:h-150 md:w-300 w-full rounded-lg" alt="fishzonemapper" />
                     </a>
                   </div>
@@ -366,9 +406,9 @@ export default function Home() {
                 >
                 <div className="md:py-10 pointer-events-auto max-w-full md:ml-10">
                   <div className="container mt-10 flex flex-col md:flex-row md:relative">
-                    <a href="#" className="place-items-center z-30 md:absolute w-full md:place-items-start md:w-[400px] md:h-[100px]">
+                    <a href="https://drive.google.com/file/d/1RG0xdgEj8nyN8h6c0irPX9RofiJXVa_e/view?usp=sharing" className="place-items-center z-30 md:absolute w-full md:place-items-start md:w-[400px] md:h-[100px]">
                       <p className="font-normal text-lg text-gray-700 dark:text-gray-400">
-                        Pivate Project - Not deployed
+                        Internship Project - Not deployed
                       </p>
                       <h5 className="mt-2 md:mt-5 text-2xl md:text-3xl font-bold tracking-tight text-gray-900">
                         PT Alfatih Pilar Peradaban
@@ -391,9 +431,9 @@ export default function Home() {
                         </button>
                       </div>
                     </div>
-                    <div className="z-10 md:ml-[-100px] order-1 md:order-2">
+                    <a href="https://drive.google.com/file/d/1RG0xdgEj8nyN8h6c0irPX9RofiJXVa_e/view?usp=sharing" className="z-10 md:ml-[-100px] order-1 md:order-2">
                       <Image width={500} height={500} src="/img/project3.png" className="md:h-150 md:w-300 w-full rounded-lg" alt="APP" />
-                    </div>
+                    </a>
                   </div>
                 </div>
               </motion.div>
@@ -446,7 +486,7 @@ export default function Home() {
               </motion.div>
             </div>
           </section>
-          <section id="publications" className="py-20 px-4 md:py-40 md:px-20 grid grid-cols-1 md:grid-cols-3 gap-4 bg-[#F3E6D5]">
+          <section id="publications" className="py-20 px-4 md:py-40 md:px-20 grid grid-cols-1 md:grid-cols-3 gap-4 ">
             <div className="col-span-1 md:ml-10 flex place-items-center md:place-items-start">
               <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -491,7 +531,16 @@ export default function Home() {
               </ul>
             </div>
           </section>
-          <section id="contactme" className="bg-[#800020] md:h-screen pointer-events-auto">
+          <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: false }}
+                transition={{
+                  duration: 0.6,
+                  ease: "easeOut",
+                }}
+                >
+          <section id="contactme" className="bg-[#800020] md:h-screen pointer-events-auto rounded-t-full">
             <div className="md:py-40 py-20 px-20 md:px-80 items-center text-center">
               <h1 className="text-2xl md:text-4xl text-amber-50 font-bold">Get in touch</h1>
               <h1 className="mt-10 text-5xl md:mt-20 md:text-7xl text-white font-serif font-bold">Let&#39;s Work Together</h1>
@@ -505,6 +554,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+          </motion.div>
         </main>
       </div>
     </div>
