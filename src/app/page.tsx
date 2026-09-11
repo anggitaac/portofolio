@@ -293,12 +293,12 @@ export default function Home() {
                   duration: 0.6,
                   ease: "easeOut",
                 }}>
-                <div className="mb-10 text-left">
-                  <h1 className="text-xl mb-2 md:text-3xl tracking-wide mr-4">
-                    a few things
+                <div className="mb-10 md:py-10 text-center animate-pulse">
+                  <h1 className="text-xl  font-bold text-gray-500/40 font-serif mb-2 md:text-3xl tracking-wide mr-4">
+                    A FEW THINGS
                   </h1>
-                  <h2 className="text-3xl mb-2 md:text-7xl tracking-wide mr-4 font-bold text-[#800020]">
-                    I&#39;ve built
+                  <h2 className="text-3xl mt-[-25] mb-2 md:text-7xl font-serif  tracking-wide mr-4 font-bold text-[#800020]/80">
+                    I&#39;VE BUILT
                   </h2>
                 </div>
               </motion.div>
