@@ -36,7 +36,7 @@ export default function Nav() {
         <div className="flex items-center justify-between px-6 py-4 w-full">
           <div className="w-1/3 md:hidden" />
 
-          <div className="hidden md:flex gap-15 justify-center flex-1 md:text-xl text-black">
+          <div className="hidden md:flex gap-15 justify-center flex-1 md:text-md text-black">
             {sections.map((id) => (
               <a
                 key={id}
