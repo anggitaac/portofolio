@@ -2,7 +2,7 @@ export const publications = [
   {
     title: "A Comparasion of the State Space Model and XGBoost Approaches for Forecasting Capture Fisheries Production In Muara Angke",
     url: "http://repository.upi.edu/id/eprint/154515",
-    journal: "Thesis, Universitas Pendidikan Indonesia, 2025"
+    journal: "Thesis (S1), Repository Universitas Pendidikan Indonesia, 2026"
   },
   {
     title: "Analysis of Coral Life Form Based on Oceanographic Parameters in Ayer Island, Thousand Islands",
