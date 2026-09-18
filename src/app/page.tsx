@@ -139,7 +139,7 @@ export default function Home() {
                           </span>
                         </div>
                         <time className="text-xs text-gray-600 whitespace-nowrap">
-                          Januari — Mei 2025
+                          February — May 2025
                         </time>
                       </div>
 
@@ -173,7 +173,7 @@ export default function Home() {
                             </span>
                           </div>
                           <time className="text-xs text-gray-600 whitespace-nowrap">
-                            Agustus — Desember 2025
+                            August — December 2025
                           </time>
                         </div>
 
@@ -214,7 +214,7 @@ export default function Home() {
                           </span>
                         </div>
                         <time className="text-xs text-gray-600 whitespace-nowrap">
-                          Jun — Dec 2024
+                          June — December 2024
                         </time>
                       </div>
 
@@ -252,7 +252,7 @@ export default function Home() {
                           </span>
                         </div>
                         <time className="text-xs text-gray-600 whitespace-nowrap">
-                          Nov 2023 — May 2024
+                          November 2023 — May 2024
                         </time>
                       </div>
 
